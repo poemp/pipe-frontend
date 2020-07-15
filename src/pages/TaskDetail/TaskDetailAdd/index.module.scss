@@ -1,0 +1,154 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 72px;
+  background: $color-white;
+}
+
+.breadcrumb {
+  margin: 0 0 0 20px;
+  padding-left: 16px;
+  border-left: 5px solid $color-brand1-6;
+}
+
+.container {
+  margin: 20px;
+}
+
+.container {
+  margin: 0 20px;
+  letter-spacing: 2px;
+}
+
+.button {
+  margin: 0 8px;
+//   letter-spacing: 2px;
+}
+
+.table {
+  margin: 20px 0;
+}
+
+.pagination {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  margin: 20px;
+//   letter-spacing: 2px;
+}
+
+.input {
+  margin: 0 4px;
+}
+
+.select {
+  width: 200px;
+  vertical-align: middle;
+}
+
+.shortInput {
+  width: 100px;
+}
+
+.caseNumber {
+  margin-right: 20px;
+}
+
+.button {
+  margin: 0 8px;
+//   letter-spacing: 2px;
+}
+
+.formContent {
+  margin-left: 30px;
+}
+
+.formItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.formLabel {
+  width: 120px;
+  margin-right: 15px;
+  text-align: right;
+}
+
+.formError {
+  margin-left: 10px;
+}
+
+.submitButton {
+  margin-left: 85px;
+}
+
+.inputNme {
+  width: 400px;
+}
+.red{
+  color: red;
+}
+
+.formItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.formLabel {
+  width: 120px;
+  margin-right: 15px;
+  text-align: right;
+}
+
+.formError {
+  margin-left: 10px;
+}
+
+.submitButton {
+  margin-left: 85px;
+}
+
+.inputNme {
+  width: 400px;
+}
+
+.customContent p {
+  font-size: 12px !important;
+  font-weight: normal !important;
+  line-height: 20px !important;
+  padding: 5px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  border: 1px solid #DCDEE3 !important;
+  text-align: center;
+}
+
+.groupItem{
+  padding: 20px;
+  background: #F7F8FA;
+  margin: 20px;
+}
+
+.prompt {
+  color: red;
+  font-size: 14px;
+  font-weight: normal;
+}
+.addGoodsDiv {
+  display: flex;
+}
+
+
+.addStoreStyle {
+  width: 50%!important;
+}
+
+.addTableStyle{
+  width: 50%!important;
+}

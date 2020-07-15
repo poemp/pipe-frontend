@@ -1,0 +1,68 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 72px;
+  background: $color-white;
+}
+
+.breadcrumb {
+  margin: 0 0 0 20px;
+  padding-left: 16px;
+  border-left: 5px solid $color-brand1-6;
+}
+
+.container {
+  margin: 20px;
+}
+
+.container {
+  margin: 0 20px;
+  // letter-spacing: 2px;
+}
+
+.button {
+  margin: 0 8px;
+  // letter-spacing: 2px;
+}
+
+.table {
+  margin: 20px 0;
+}
+
+.pagination {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.container {
+  margin: 20px;
+  // letter-spacing: 2px;
+}
+
+.input {
+  margin: 0 4px;
+}
+
+.select {
+  width: 200px;
+  vertical-align: middle;
+}
+
+.shortInput {
+  width: 200px;
+}
+
+.caseNumber {
+  float: right;
+  margin-right: 20px;
+}
+
+.button {
+  margin: 0 8px;
+  // letter-spacing: 2px;
+}
+
+.spanClass{
+  min-height: 20px;
+}
