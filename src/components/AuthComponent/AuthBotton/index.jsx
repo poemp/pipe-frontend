@@ -109,7 +109,6 @@ class AuthButton extends React.Component {
                 </Link>
             ) : null;
         } else {
-          console.log(this.state,text);
             //没有按钮的
             return has ? (
                 <Button

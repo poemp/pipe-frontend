@@ -78,7 +78,8 @@ class TaskEdit extends React.Component {
               Message.warning(data.message ? data.message : data.data);
             } else {
               that.setState({
-                value: data.data
+                value: data.data,
+                checkedFreeTableList: data.data.tableNames
               })
             }
           })
@@ -155,7 +156,6 @@ class TaskEdit extends React.Component {
       }
       value["tableNames"] = checkedFreeTableList;
       const that = this;
-      console.log(value);
       axios.post(url.url + '/v1/taskDetail/saveOrUpdateTaskDetail', value)
         .then(function (response) {
           const {data} = response;
@@ -247,13 +247,6 @@ class TaskEdit extends React.Component {
     })
 
   };
-
-  searchTableChange = (value) => {
-    this.setState({
-      TableCondition: value
-    })
-  };
-
 
   /**
    * 数据表分页
@@ -395,8 +388,9 @@ class TaskEdit extends React.Component {
                        selectedRowKeys: this.state.checkedFreeTableIdList
                      }}
               >
+                <Table.Column align="center" width={"120"} title="表名" dataIndex="comment"/>
                 <Table.Column align="center" title="数据表" dataIndex="name"/>
-                <Table.Column align="center" title="增量识别字段" dataIndex="incrementColumn"/>
+                <Table.Column align="center" width={"120"} title="增量识别字段" dataIndex="incrementColumn"/>
               </Table>
               <Pagination defaultCurrent={1}
                           current={this.pageNum}
