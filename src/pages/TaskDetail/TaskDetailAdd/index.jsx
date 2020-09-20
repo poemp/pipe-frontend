@@ -287,7 +287,7 @@ class TaskEdit extends React.Component {
           </Button>
         </div>
         <IceContainer className='container-main'>
-          <Form className='phdj-from classify-form'
+          <Form className='pipe-from classify-form'
                 value={this.state.value}
                 onChange={this.formChange}
                 ref={formRef => form = formRef}>
@@ -365,7 +365,7 @@ class TaskEdit extends React.Component {
             </FormItem>
             <Row>
               <Col style={{textAlign: 'left', marginTop: '20px'}}>
-                <Form.Submit className='phdj-btn-submit' type="primary" validate onClick={this.validateAllFormField}
+                <Form.Submit className='pipe-btn-submit' type="primary" validate onClick={this.validateAllFormField}
                              style={{marginRight: '5px'}}>提交</Form.Submit>
               </Col>
             </Row>

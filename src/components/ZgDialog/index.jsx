@@ -64,14 +64,14 @@ class ZgDialog extends React.Component {
             }
         },100);
     };
-  
-    
+
+
 
 
   render() {
     return (
         <Dialog
-            className='phdj-dialog'
+            className='pipe-dialog'
             autoFocus={true}
             title={this.state.title}
             visible={this.state.visible}
