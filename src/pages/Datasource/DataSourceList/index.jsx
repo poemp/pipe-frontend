@@ -378,7 +378,8 @@ class DataSourceList extends React.Component {
               <AuthButton auth={"DATA_CENTER$_DATASOURCE$_ADD"}
                           link={{to: "dataSourceAdd?dataSourceId=", text: "新建数据源"}}/>
               <AuthButton auth={"DATA_CENTER$_DATASOURCE$_BATCH_DELETE"}
-                          onClick={() => this.handleClick()} title={"批量删除"}/>
+                          onClick={() => this.handleClick()}
+                          title={"批量删除"}/>
               <span className={styles.caseNumber}>
                                 <Input onChange={this.searchCondition.bind(this)} placeholder={"数据源名称"}
                                        className={`${styles.input} ${styles.shortInput}`}/>
@@ -422,7 +423,6 @@ class DataSourceList extends React.Component {
               }/>
               <Table.Column align="center" title="数据源名称" dataIndex="sourceName"/>
               <Table.Column align="center" width={120} title="数据源类型" dataIndex="sourceType"/>
-              <Table.Column align="center" width={100} title="数据源方向" dataIndex="dataDirection"/>
               <Table.Column align="center" title="链接地址" dataIndex="ip"/>
               <Table.Column align="center" width={80} title="端口号" dataIndex="port"/>
               <Table.Column align="center" title="用户名" dataIndex="userName"/>
