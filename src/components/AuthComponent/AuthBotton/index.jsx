@@ -109,8 +109,7 @@ class AuthButton extends React.Component {
                 </Link>
             ) : null;
         } else {
-            //没有按钮的
-          console.log(text.indexOf('批量删除'));
+
             return has ? (
                 <Button
                     text={text}
