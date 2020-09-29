@@ -291,14 +291,14 @@ class TaskEdit extends React.Component {
                 value={this.state.value}
                 onChange={this.formChange}
                 ref={formRef => form = formRef}>
-            <p className='form-title'>活动设置</p>
+            <p className='form-title'>基本信息设置</p>
             <FormItem labelAlign='top' label="任务名称：" required
                       requiredMessage="请填写任务名称">
               <Input name="name" className={styles.inputNme} placeholder="请填写活动名称" style={{width: 400}}
                      aria-required="true"/>
             </FormItem>
-            <FormItem labelAlign='top' label="来源数据库：" required
-                      requiredMessage="请填写任务名称">
+            <FormItem labelAlign='top' label="源数据库：" required
+                      requiredMessage="请选择源数据库">
               <Select name={'datasourceId'}
                       placeholder="请选择"
                       className={styles.inputNme}
@@ -312,8 +312,8 @@ class TaskEdit extends React.Component {
                 }
               </Select>
             </FormItem>
-            <FormItem labelAlign='top' label="目标数据源：" required
-                      requiredMessage="请填写任务名称">
+            <FormItem labelAlign='top' label="目标数据库：" required
+                      requiredMessage="请选择目标数据库">
               <Select name={'targetId'}
                       placeholder="请选择"
                       className={styles.inputNme}
