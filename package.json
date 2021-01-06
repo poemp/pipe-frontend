@@ -19,7 +19,7 @@
   "devDependencies": {
     "@ice/spec": "^1.0.0",
     "@icedesign/form-binder": "^1.0.7",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "build-plugin-fusion": "^0.1.0",
     "build-plugin-moment-locales": "^0.1.0",
     "eslint": "^6.0.1",
